@@ -1,0 +1,7 @@
+debconf ddclient/method select  Web-based IP discovery service
+debconf ddclient/names  string  
+debconf ddclient/service    select  no-ip.com
+debconf ddclient/username   string  
+debconf ddclient/password  password  
+debconf ddclient/password-repeat   password  
+
