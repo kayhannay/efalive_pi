@@ -19,6 +19,6 @@ ln -s /home/efa/.xinitrc /home/efa/.xsessionrc
 usermod -G sudo,plugdev,netdev -a efa
 EOF
 
-echo -e "\nhdmi_blanking=1\n\n# RTC settings\n#dtoverlay=i2c-rtc,ds1307\n#dtoverlay=i2c-rtc,ds3231\n" >> ${ROOTFS_DIR}/boot/config.txt
+echo -e "\nhdmi_blanking=1\n\n# RTC settings\n#dtoverlay=i2c-rtc,ds1307\n#dtoverlay=i2c-rtc,ds3231\n" >> ${ROOTFS_DIR}/boot/firmware/config.txt
 echo "console=serial0,115200 console=tty1 root=ROOTDEV rootfstype=ext4 fsck.repair=yes rootwait quiet splash logo.nologo plymouth.ignore-serial-consoles init=/usr/lib/raspberrypi-sys-mods/firstboot" > ${ROOTFS_DIR}/boot/cmdline.txt
 
