@@ -2,6 +2,8 @@
 
 This project contains a build script to create a SD card image with efaLive for the RaspberryPi. It is based on the [project that is used to build the official Raspberry Pi OS images](https://github.com/RPi-Distro/Pi-gen). (Previously known as Raspbian).
 
+PLEASE NOTE: The current development is done on the arm64 branch! So use that branch to build an up-to-date image.
+
 ## Binaries and documentation
 
 For more information about efaLive, have a look to the efaLive documentation on [my homepage](https://www.hannay.de/en/efalive/).
